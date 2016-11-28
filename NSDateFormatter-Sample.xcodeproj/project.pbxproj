@@ -13,11 +13,11 @@
 		F512E9041DEBFB7B00E63BFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F512E9021DEBFB7B00E63BFA /* Main.storyboard */; };
 		F512E9061DEBFB7B00E63BFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F512E9051DEBFB7B00E63BFA /* Assets.xcassets */; };
 		F512E9091DEBFB7B00E63BFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F512E9071DEBFB7B00E63BFA /* LaunchScreen.storyboard */; };
-		F512E9141DEBFB7B00E63BFA /* NSDateFormatter_SampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F512E9131DEBFB7B00E63BFA /* NSDateFormatter_SampleTests.m */; };
 		F512E91F1DEBFB7B00E63BFA /* NSDateFormatter_SampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F512E91E1DEBFB7B00E63BFA /* NSDateFormatter_SampleUITests.m */; };
 		F512E9321DEC00EC00E63BFA /* NSDateFormatter+TACAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F512E9311DEC00EC00E63BFA /* NSDateFormatter+TACAdditions.m */; };
 		F512E9351DEC00FA00E63BFA /* NSLocale+TACAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F512E9341DEC00FA00E63BFA /* NSLocale+TACAdditions.m */; };
 		F512E9381DEC010800E63BFA /* NSTimeZone+TACAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F512E9371DEC010800E63BFA /* NSTimeZone+TACAdditions.m */; };
+		F512E93C1DEC0C8400E63BFA /* NSDateFormatter+TACAdditions_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F512E93B1DEC0C8400E63BFA /* NSDateFormatter+TACAdditions_Tests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,7 +49,6 @@
 		F512E9081DEBFB7B00E63BFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F512E90A1DEBFB7B00E63BFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F512E90F1DEBFB7B00E63BFA /* NSDateFormatter-SampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NSDateFormatter-SampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F512E9131DEBFB7B00E63BFA /* NSDateFormatter_SampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSDateFormatter_SampleTests.m; sourceTree = "<group>"; };
 		F512E9151DEBFB7B00E63BFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F512E91A1DEBFB7B00E63BFA /* NSDateFormatter-SampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NSDateFormatter-SampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F512E91E1DEBFB7B00E63BFA /* NSDateFormatter_SampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSDateFormatter_SampleUITests.m; sourceTree = "<group>"; };
@@ -60,6 +59,7 @@
 		F512E9341DEC00FA00E63BFA /* NSLocale+TACAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLocale+TACAdditions.m"; sourceTree = "<group>"; };
 		F512E9361DEC010800E63BFA /* NSTimeZone+TACAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimeZone+TACAdditions.h"; sourceTree = "<group>"; };
 		F512E9371DEC010800E63BFA /* NSTimeZone+TACAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimeZone+TACAdditions.m"; sourceTree = "<group>"; };
+		F512E93B1DEC0C8400E63BFA /* NSDateFormatter+TACAdditions_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDateFormatter+TACAdditions_Tests.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,7 +135,7 @@
 		F512E9121DEBFB7B00E63BFA /* NSDateFormatter-SampleTests */ = {
 			isa = PBXGroup;
 			children = (
-				F512E9131DEBFB7B00E63BFA /* NSDateFormatter_SampleTests.m */,
+				F512E93B1DEC0C8400E63BFA /* NSDateFormatter+TACAdditions_Tests.m */,
 				F512E9151DEBFB7B00E63BFA /* Info.plist */,
 			);
 			path = "NSDateFormatter-SampleTests";
@@ -309,7 +309,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F512E9141DEBFB7B00E63BFA /* NSDateFormatter_SampleTests.m in Sources */,
+				F512E93C1DEC0C8400E63BFA /* NSDateFormatter+TACAdditions_Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

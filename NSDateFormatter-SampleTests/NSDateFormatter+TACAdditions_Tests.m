@@ -1,5 +1,5 @@
 //
-//  NSDateFormatter_SampleTests.m
+//  NSDateFormatter+TACAdditions_Tests.m
 //  NSDateFormatter-SampleTests
 //
 //  Created by masato_arai on 2016/11/28.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface NSDateFormatter_SampleTests : XCTestCase
+@interface NSDateFormatter_TACAdditions_Tests : XCTestCase
 
 @end
 
-@implementation NSDateFormatter_SampleTests
+@implementation NSDateFormatter_TACAdditions_Tests
 
 - (void)setUp {
     [super setUp];
