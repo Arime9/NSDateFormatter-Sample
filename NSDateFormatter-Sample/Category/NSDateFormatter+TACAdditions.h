@@ -1,5 +1,5 @@
 //
-//  NSDateFormatter+Additions.h
+//  NSDateFormatter+TACAdditions.h
 //  NSDateFormatter-Sample
 //
 //  Created by masato_arai on 2016/11/28.
@@ -8,6 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSDateFormatter (Additions)
+@interface NSDateFormatter (TACAdditions)
 
 @end

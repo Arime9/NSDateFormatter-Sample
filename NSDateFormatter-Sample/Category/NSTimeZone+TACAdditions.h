@@ -1,13 +1,13 @@
 //
-//  NSLocale+Additions.m
+//  NSTimeZone+TACAdditions.h
 //  NSDateFormatter-Sample
 //
 //  Created by masato_arai on 2016/11/28.
 //  Copyright © 2016年 Tea and Coffee. All rights reserved.
 //
 
-#import "NSLocale+Additions.h"
+#import <Foundation/Foundation.h>
 
-@implementation NSLocale (Additions)
+@interface NSTimeZone (TACAdditions)
 
 @end
