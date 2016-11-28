@@ -29,7 +29,7 @@ static TACDateFormat const TACDateFormatJaFull_       = @"yyyy年 MM月 dd日（
 @interface NSDateFormatter (TACAdditions)
 
 - (instancetype)initWithDateFormat:(TACDateFormat)dateFormat;
-- (instancetype)initWithDateFormat:(TACDateFormat)dateFormat withTimeZoneAbbreviation:(TACTimeZoneAbbreviation)abbreviation withLocaleIdentifier:(TACLocaleIdentifier)localeIdent;
 - (instancetype)initWithDateFormat:(TACDateFormat)dateFormat withLocaleIdentifier:(TACLocaleIdentifier)localeIdent;
+- (instancetype)initWithDateFormat:(TACDateFormat)dateFormat withLocaleIdentifier:(TACLocaleIdentifier)localeIdent withTimeZoneAbbreviation:(TACTimeZoneAbbreviation)abbreviation;
 
 @end
