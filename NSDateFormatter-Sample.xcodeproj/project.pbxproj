@@ -15,6 +15,9 @@
 		F512E9091DEBFB7B00E63BFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F512E9071DEBFB7B00E63BFA /* LaunchScreen.storyboard */; };
 		F512E9141DEBFB7B00E63BFA /* NSDateFormatter_SampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F512E9131DEBFB7B00E63BFA /* NSDateFormatter_SampleTests.m */; };
 		F512E91F1DEBFB7B00E63BFA /* NSDateFormatter_SampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F512E91E1DEBFB7B00E63BFA /* NSDateFormatter_SampleUITests.m */; };
+		F512E9321DEC00EC00E63BFA /* NSDateFormatter+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = F512E9311DEC00EC00E63BFA /* NSDateFormatter+Additions.m */; };
+		F512E9351DEC00FA00E63BFA /* NSLocale+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = F512E9341DEC00FA00E63BFA /* NSLocale+Additions.m */; };
+		F512E9381DEC010800E63BFA /* NSTimeZone+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = F512E9371DEC010800E63BFA /* NSTimeZone+Additions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		F512E91A1DEBFB7B00E63BFA /* NSDateFormatter-SampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NSDateFormatter-SampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F512E91E1DEBFB7B00E63BFA /* NSDateFormatter_SampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSDateFormatter_SampleUITests.m; sourceTree = "<group>"; };
 		F512E9201DEBFB7B00E63BFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F512E9301DEC00EC00E63BFA /* NSDateFormatter+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDateFormatter+Additions.h"; sourceTree = "<group>"; };
+		F512E9311DEC00EC00E63BFA /* NSDateFormatter+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDateFormatter+Additions.m"; sourceTree = "<group>"; };
+		F512E9331DEC00FA00E63BFA /* NSLocale+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLocale+Additions.h"; sourceTree = "<group>"; };
+		F512E9341DEC00FA00E63BFA /* NSLocale+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLocale+Additions.m"; sourceTree = "<group>"; };
+		F512E9361DEC010800E63BFA /* NSTimeZone+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimeZone+Additions.h"; sourceTree = "<group>"; };
+		F512E9371DEC010800E63BFA /* NSTimeZone+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimeZone+Additions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +118,7 @@
 				F512E9051DEBFB7B00E63BFA /* Assets.xcassets */,
 				F512E9071DEBFB7B00E63BFA /* LaunchScreen.storyboard */,
 				F512E90A1DEBFB7B00E63BFA /* Info.plist */,
+				F512E92F1DEC00E000E63BFA /* Category */,
 				F512E8F91DEBFB7B00E63BFA /* Supporting Files */,
 			);
 			path = "NSDateFormatter-Sample";
@@ -138,6 +148,19 @@
 				F512E9201DEBFB7B00E63BFA /* Info.plist */,
 			);
 			path = "NSDateFormatter-SampleUITests";
+			sourceTree = "<group>";
+		};
+		F512E92F1DEC00E000E63BFA /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				F512E9301DEC00EC00E63BFA /* NSDateFormatter+Additions.h */,
+				F512E9311DEC00EC00E63BFA /* NSDateFormatter+Additions.m */,
+				F512E9331DEC00FA00E63BFA /* NSLocale+Additions.h */,
+				F512E9341DEC00FA00E63BFA /* NSLocale+Additions.m */,
+				F512E9361DEC010800E63BFA /* NSTimeZone+Additions.h */,
+				F512E9371DEC010800E63BFA /* NSTimeZone+Additions.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,6 +299,9 @@
 				F512E9011DEBFB7B00E63BFA /* ViewController.m in Sources */,
 				F512E8FE1DEBFB7B00E63BFA /* AppDelegate.m in Sources */,
 				F512E8FB1DEBFB7B00E63BFA /* main.m in Sources */,
+				F512E9351DEC00FA00E63BFA /* NSLocale+Additions.m in Sources */,
+				F512E9321DEC00EC00E63BFA /* NSDateFormatter+Additions.m in Sources */,
+				F512E9381DEC010800E63BFA /* NSTimeZone+Additions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
