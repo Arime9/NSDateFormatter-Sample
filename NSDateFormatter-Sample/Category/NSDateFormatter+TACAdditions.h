@@ -14,7 +14,7 @@ typedef NSString * TACDateFormat NS_EXTENSIBLE_STRING_ENUM;
 
 // Slash date. Colon time.
 static TACDateFormat const TACDateFormatMd            = @"M/d";
-static TACDateFormat const TACDateFormat_short        = @"HH:mm";
+static TACDateFormat const TACDateFormat_Short        = @"HH:mm";
 static TACDateFormat const TACDateFormatMMddShort     = @"MM/dd HH:mm";
 
 // Hyphen date. Colon time.
