@@ -8,6 +8,11 @@
 
 #import <Foundation/Foundation.h>
 
+typedef NSString * TACLocaleIdentifier NS_EXTENSIBLE_STRING_ENUM;
+
+static TACLocaleIdentifier const TACLocaleIdentifierEnUsPosix   = @"en_US_POSIX";
+static TACLocaleIdentifier const TACLocaleIdentifierjaJp        = @"ja_JP";
+
 @interface NSLocale (TACAdditions)
 
 @end

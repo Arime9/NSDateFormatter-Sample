@@ -8,6 +8,11 @@
 
 #import <Foundation/Foundation.h>
 
+typedef NSString * TACTimeZoneAbbreviation NS_EXTENSIBLE_STRING_ENUM;
+
+static TACTimeZoneAbbreviation const TACTimeZoneAbbreviationGMT   = @"GMT";
+static TACTimeZoneAbbreviation const TACTimeZoneAbbreviationJST   = @"JST";
+
 @interface NSTimeZone (TACAdditions)
 
 @end
